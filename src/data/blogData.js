@@ -1,0 +1,60 @@
+const blogData = [
+  {
+    id: 1,
+    title: "Another safety researcher is leaving OpenAI",
+    summary: "Miles Brundage, who advises OpenAI leadership on safety and policy, announced his departure.He said that he's leaving the company to have more independence and freedom to publish.",
+    content: "<p>Miles Brundage, a senior policy advisor and head of the AGI Readiness team at OpenAI, is leaving the company. He announced the decision today in a post on X, which was accompanied by a Substack article explaining the decision.</p> <p> The AGI Readiness team that he oversaw will be disbanded, with its various members distributed among other parts of the company.Brundage is just the latest high-profile safety researcher to leave OpenAI. In May, the company dissolved its Superalignment Team, which focused on the risks of artificial superintelligence, after the departure of its two leaders Jan Leike and Ilya Sutskever. The company has also seen the departure in recent months of Chief Technology Officer Mira Murati, Chief Research Officer Bob McGrew, and VP of Research Barret Zoph.</p><p> OpenAI did not respond to a request for comment. For the past six years Brundage has advised the OpenAI executives and board members about how best to prepare for the rise of artificial intelligence that rivals that of humans and which many experts agree could fundamentally transform society.</p>",
+    image: "https://www.businessinsider.in/_next/image?url=https%3A%2F%2Fstaticbiassets.in%2Fthumb%2Fmsid-114559958%2Cwidth-700%2Cresizemode-4%2Cimgsize-339146%2Fimg66912b4e9caa6ed01e0106e4.jpg&w=750&q=75"
+  },
+  {
+    id: 2,
+    title: "Big Tech goes nuclear",
+    summary: "Amazon's pitch to use power plants shows the crucial role the energy source plays for AI",
+    image:"https://www.businessinsider.in/_next/image?url=https%3A%2F%2Fstaticbiassets.in%2Fthumb%2Fmsid-114563853%2Cwidth-700%2Cresizemode-4%2Cimgsize-63222%2Fimg671ad546a0a0cc14f223cf97.jpg&w=750&q=75",
+    content: "<ul><li>Amazon wants to expand its use of nuclear power to meet rising AI energy needs.</li><li> The company's energy strategy team recently pitched CEO Andy Jassy on the benefits of nuclear power.</li></ul><p>In June, Amazon's Global Energy Strategy team pitched CEO Andy Jassy the idea of doubling down on nuclear power to support its growing network of data centers.</p><p>The group argued that nuclear can be more reliable and cost-efficient than other clean energy sources, such as wind and solar. Jassy agreed, according to an internal Amazon document from the third quarter that was obtained by Business Insider.</p><p>We have strong conviction that nuclear power is the most economical and credible path to scale carbon free energy to meet the next decade's rapid capacity growth,the company's energy strategy team wrote. We took this conviction to Andy Jassy in June 2024, and received approval to execute against our proposed expansion to the carbon free energy strategy through new nuclear generation.</p>",
+  },
+  {
+    id: 3,
+    title: "Stock market today: Indexes rise but S&P 500 on track to snap 6-week win streak as yields spike",
+    summary: "US stocks were higher on Friday, but are still on pace for a weekly loss. The Dow rose for the first time this week. Yields stabilized after a jump to three-year highs.",
+    image:"https://www.businessinsider.in/_next/image?url=https%3A%2F%2Fstaticbiassets.in%2Fthumb%2Fmsid-114590851%2Cwidth-700%2Cresizemode-4%2Cimgsize-279428%2Fimg671ba1269b3250dbbcea11bc.jpg&w=640&q=75",
+    content: "<p>US stocks were up on Friday but headed for a weekly loss, with major averages on track to snap a six week streak of gains.</p><p>The Dow Jones Industrial Average rose for the first time this week, while The S&P 500 inched higher after breaking out of a three-day slump on Thursday. The benchmark index was helped by Tesla's 22% gain following it's big earnings beat on Wednesday.</p><p>Hindering stocks through the week was the big spike in bond yields. The 10-year Treasury edged lower on Friday but earlier in the week had jumped above 4.25%, it's highest level in three months.</p><p>Hindering stocks through the week was the big spike in bond yields. The 10-year Treasury edged lower on Friday but earlier in the week had jumped above 4.25%, it's highest level in three months.</p>",
+  },
+  {
+    id: 4,
+    title: "Weekend wrap: Real estate dominates India's investment portfolios, interview tips from Amazon employee and more",
+    summary: "Real Estate continues to dominate India’s investment portfolios, shows FICCI report",
+    image:"https://www.businessinsider.in/_next/image?url=https%3A%2F%2Fstaticbiassets.in%2Fthumb%2Fmsid-114584105%2Cwidth-700%2Cresizemode-4%2Cimgsize-31872%2Freal-estate.jpg&w=640&q=75",
+    content: "<p>This week’s news roundup captures a mix of finance, technology, and career insights, spotlighting trends and timely advice. The real estate sector in India continues to reign supreme in investment portfolios, even as new financial opportunities emerge. Meanwhile, job seekers are dealing with “ghosting,” a new twist in recruitment echoing modern dating.</p><p>The Dow Jones Industrial Average rose for the first time this week, while The S&P 500 inched higher after breaking out of a three-day slump on Thursday. The benchmark index was helped by Tesla's 22% gain following it's big earnings beat on Wednesday.</p><p>Hindering stocks through the week was the big spike in bond yields. The 10-year Treasury edged lower on Friday but earlier in the week had jumped above 4.25%, it's highest level in three months.</p><p>Hindering stocks through the week was the big spike in bond yields. The 10-year Treasury edged lower on Friday but earlier in the week had jumped above 4.25%, it's highest level in three months.</p>",
+  },
+  {
+    id: 5,
+    title: "A tech-nuclear relationship is mutually beneficial.",
+    summary: "Tech companies need cost-efficient, reliable energy sources that won't increase their carbon footprint, writes BI's Hasan Chowdhury. Nuclear power ticks that box better than other clean energy options like solar or wind.",
+    image:"https://staticbiassets.in/thumb/msid-114590280,width-700,resizemode-4/Master.jpg",
+    content: "<p>This week’s news roundup captures a mix of finance, technology, and career insights, spotlighting trends and timely advice. The real estate sector in India continues to reign supreme in investment portfolios, even as new financial opportunities emerge. Meanwhile, job seekers are dealing with “ghosting,” a new twist in recruitment echoing modern dating.</p><p>The Dow Jones Industrial Average rose for the first time this week, while The S&P 500 inched higher after breaking out of a three-day slump on Thursday. The benchmark index was helped by Tesla's 22% gain following it's big earnings beat on Wednesday.</p><p>Hindering stocks through the week was the big spike in bond yields. The 10-year Treasury edged lower on Friday but earlier in the week had jumped above 4.25%, it's highest level in three months.</p><p>Hindering stocks through the week was the big spike in bond yields. The 10-year Treasury edged lower on Friday but earlier in the week had jumped above 4.25%, it's highest level in three months.</p>",
+  },
+  {
+    id: 6,
+    title: "Apple is hiring 400 employees in India – roles, how to apply and all you need to know",
+    summary: "Apple is set to open four new retail stores in India by next year.The company is looking to recruit around 400 employees in India for these stores.Here’s everything you need to know about the job opening at Apple.",
+    image:"https://www.businessinsider.in/_next/image?url=https%3A%2F%2Fstaticbiassets.in%2Fthumb%2Fmsid-114570346%2Cwidth-700%2Cresizemode-4%2Cimgsize-143728%2Fapple-store.jpg&w=640&q=75",
+    content: "<p>Cupertino tech giant Apple is expanding its retail presence in India amid a rise in sales of the iPhone. The company recently announced the launch of four new retail stores in Bengaluru, Delhi-NCR, Mumbai and Pune.</p><p>The Dow Jones Industrial Average rose for the first time this week, while The S&P 500 inched higher after breaking out of a three-day slump on Thursday. The benchmark index was helped by Tesla's 22% gain following it's big earnings beat on Wednesday.</p><p>Hindering stocks through the week was the big spike in bond yields. The 10-year Treasury edged lower on Friday but earlier in the week had jumped above 4.25%, it's highest level in three months.</p><p>Hindering stocks through the week was the big spike in bond yields. The 10-year Treasury edged lower on Friday but earlier in the week had jumped above 4.25%, it's highest level in three months.</p>",
+  },
+  {
+    id: 7,
+    title: "ChatGPT parent OpenAI is reportedly planning to launch a new AI model soon but not everyone will get it",
+    summary: "OpenAI is planning a new AI model.It could be out in December.It might be called GPT-5",
+    image:"https://www.businessinsider.in/_next/image?url=https%3A%2F%2Fstaticbiassets.in%2Fthumb%2Fmsid-114569275%2Cwidth-700%2Cresizemode-4%2Cimgsize-849208%2Forion.jpg&w=640&q=75",
+    content: "<p>When OpenAI launched ChatGPT, powered by GPT 3.5, in November 2022, the world couldnt' stop marvelling at the new chatbot in town. It took everyone by surprise with its ability to respond in a human-like manner, give life advice, joke around, compose music and poetry and whatnot. As ChatGPT gained immense popularity, OpenAI kept working on making the chatbot better and better and has since rolled out many updates and new language models. Now, yet another AI model might just be in store.</p><p>The Dow Jones Industrial Average rose for the first time this week, while The S&P 500 inched higher after breaking out of a three-day slump on Thursday. The benchmark index was helped by Tesla's 22% gain following it's big earnings beat on Wednesday.</p><p>Hindering stocks through the week was the big spike in bond yields. The 10-year Treasury edged lower on Friday but earlier in the week had jumped above 4.25%, it's highest level in three months.</p><p>Hindering stocks through the week was the big spike in bond yields. The 10-year Treasury edged lower on Friday but earlier in the week had jumped above 4.25%, it's highest level in three months.</p>",
+  },
+  {
+    id: 8,
+    title: "Exclusive: Maven Clinic is swapping out its finance chiefs as the women's health unicorn looks ahead to an IPO",
+    summary: "Maven's chief financial officer has left the women's health unicorn one year after taking the role.The startup plans to bring in a new CFO with public market experience, per a source with knowledge.",
+    image:"https://www.businessinsider.in/_next/image?url=https%3A%2F%2Fstaticbiassets.in%2Fthumb%2Fmsid-114559495%2Cwidth-700%2Cresizemode-4%2Cimgsize-186884%2Fimg671a68b9a0a0cc14f22397f8.jpg&w=640&q=75",
+    content: "<p>Maven Clinic is swapping out its chief financial officers on the heels of a fresh funding round as the women's health startup inches closer to an IPO.</p><p>This week’s news roundup captures a mix of finance, technology, and career insights, spotlighting trends and timely advice. The real estate sector in India continues to reign supreme in investment portfolios, even as new financial opportunities emerge. Meanwhile, job seekers are dealing with “ghosting,” a new twist in recruitment echoing modern dating.</p><p>The Dow Jones Industrial Average rose for the first time this week, while The S&P 500 inched higher after breaking out of a three-day slump on Thursday. The benchmark index was helped by Tesla's 22% gain following it's big earnings beat on Wednesday.</p><p>Hindering stocks through the week was the big spike in bond yields. The 10-year Treasury edged lower on Friday but earlier in the week had jumped above 4.25%, it's highest level in three months.</p><p>Hindering stocks through the week was the big spike in bond yields. The 10-year Treasury edged lower on Friday but earlier in the week had jumped above 4.25%, it's highest level in three months.</p>",
+  }
+];
+
+export default blogData;
