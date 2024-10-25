@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/ds-blog-website/static/css/main.8028a70a.css",
+    "main.js": "/ds-blog-website/static/js/main.b98be19f.js",
+    "static/media/gnapika.jpg": "/ds-blog-website/static/media/gnapika.ee811985b3e50843d0d7.jpg",
+    "static/media/amar.jpg": "/ds-blog-website/static/media/amar.1ba3e0c7b04468891935.jpg",
+    "static/media/rohith.jpg": "/ds-blog-website/static/media/rohith.15db80888c8cc503f29a.jpg",
+    "static/media/mani.jpg": "/ds-blog-website/static/media/mani.a49f6bc7f7cd09dde0b8.jpg",
+    "static/media/amrutha.jpg": "/ds-blog-website/static/media/amrutha.782d9498dbd05a8ae4b0.jpg",
+    "index.html": "/ds-blog-website/index.html",
+    "main.8028a70a.css.map": "/ds-blog-website/static/css/main.8028a70a.css.map",
+    "main.b98be19f.js.map": "/ds-blog-website/static/js/main.b98be19f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8028a70a.css",
+    "static/js/main.b98be19f.js"
+  ]
+}
